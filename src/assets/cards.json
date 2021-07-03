@@ -1,0 +1,70 @@
+[
+    {
+        "id": 0,
+        "item": "Child noises in the background"
+    },
+    {
+        "id": 1,
+        "item": "Hello, hello?"
+    },
+    {
+        "id": 2,
+        "item": "i need to jump in another call"
+    },
+    {
+        "id": 3,
+        "item": "can everyone go on mute"
+    },
+    {
+        "id": 4,
+        "item": "could you please get closer to the mic"
+    },
+    {
+        "id": 5,
+        "item": "You will send the minutes"
+    },
+    {
+        "id": 6,
+        "item": "do you see my screen?"
+    },
+    {
+        "id": 7,
+        "item": "lets wait for ____?"
+    },
+    {
+        "id": 8,
+        "item": "(loud painful echo/feedback)"
+    },
+    {
+        "id": 9,
+        "item": "Can you email that to everyonne"
+    },
+    {
+        "id": 10,
+        "item": "is ___ on the call?"
+    },
+    {
+        "id": 11,
+        "item": "could you share this slides afterwards?"
+    },
+    {
+        "id": 12,
+        "item": "sorry, i did'nt found the conferance id"
+    },
+    {
+        "id": 13,
+        "item": "i was having connection issues"
+    },
+    {
+        "id": 14,
+        "item": "i'll have to get back to you"
+    },
+    {
+        "id": 15,
+        "item": "who just joined"
+    },
+    {
+        "id": 16,
+        "item": "can you repeat please?"
+    }
+]
