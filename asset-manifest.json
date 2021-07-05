@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/bingo-view/static/css/main.29454dd9.chunk.css",
-    "main.js": "/bingo-view/static/js/main.550cb52d.chunk.js",
-    "main.js.map": "/bingo-view/static/js/main.550cb52d.chunk.js.map",
-    "runtime-main.js": "/bingo-view/static/js/runtime-main.18eabb0f.js",
-    "runtime-main.js.map": "/bingo-view/static/js/runtime-main.18eabb0f.js.map",
-    "static/js/2.2c839584.chunk.js": "/bingo-view/static/js/2.2c839584.chunk.js",
-    "static/js/2.2c839584.chunk.js.map": "/bingo-view/static/js/2.2c839584.chunk.js.map",
-    "static/js/3.45995d40.chunk.js": "/bingo-view/static/js/3.45995d40.chunk.js",
-    "static/js/3.45995d40.chunk.js.map": "/bingo-view/static/js/3.45995d40.chunk.js.map",
-    "index.html": "/bingo-view/index.html",
-    "static/css/main.29454dd9.chunk.css.map": "/bingo-view/static/css/main.29454dd9.chunk.css.map",
-    "static/js/2.2c839584.chunk.js.LICENSE.txt": "/bingo-view/static/js/2.2c839584.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/bingo-view/static/media/strike.f8f6e84b.jpg",
-    "static/media/reward.3f263cee.mp3": "/bingo-view/static/media/reward.3f263cee.mp3"
+    "main.css": "/bingo/static/css/main.4af13300.chunk.css",
+    "main.js": "/bingo/static/js/main.550cb52d.chunk.js",
+    "main.js.map": "/bingo/static/js/main.550cb52d.chunk.js.map",
+    "runtime-main.js": "/bingo/static/js/runtime-main.652cb14f.js",
+    "runtime-main.js.map": "/bingo/static/js/runtime-main.652cb14f.js.map",
+    "static/js/2.2c839584.chunk.js": "/bingo/static/js/2.2c839584.chunk.js",
+    "static/js/2.2c839584.chunk.js.map": "/bingo/static/js/2.2c839584.chunk.js.map",
+    "static/js/3.45995d40.chunk.js": "/bingo/static/js/3.45995d40.chunk.js",
+    "static/js/3.45995d40.chunk.js.map": "/bingo/static/js/3.45995d40.chunk.js.map",
+    "index.html": "/bingo/index.html",
+    "static/css/main.4af13300.chunk.css.map": "/bingo/static/css/main.4af13300.chunk.css.map",
+    "static/js/2.2c839584.chunk.js.LICENSE.txt": "/bingo/static/js/2.2c839584.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bingo/static/media/strike.f8f6e84b.jpg",
+    "static/media/reward.3f263cee.mp3": "/bingo/static/media/reward.3f263cee.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.18eabb0f.js",
+    "static/js/runtime-main.652cb14f.js",
     "static/js/2.2c839584.chunk.js",
-    "static/css/main.29454dd9.chunk.css",
+    "static/css/main.4af13300.chunk.css",
     "static/js/main.550cb52d.chunk.js"
   ]
 }
