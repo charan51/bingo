@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bingo/static/css/main.4af13300.chunk.css",
+    "main.css": "/bingo/static/css/main.fec8d842.chunk.css",
     "main.js": "/bingo/static/js/main.550cb52d.chunk.js",
     "main.js.map": "/bingo/static/js/main.550cb52d.chunk.js.map",
     "runtime-main.js": "/bingo/static/js/runtime-main.652cb14f.js",
@@ -10,7 +10,7 @@
     "static/js/3.45995d40.chunk.js": "/bingo/static/js/3.45995d40.chunk.js",
     "static/js/3.45995d40.chunk.js.map": "/bingo/static/js/3.45995d40.chunk.js.map",
     "index.html": "/bingo/index.html",
-    "static/css/main.4af13300.chunk.css.map": "/bingo/static/css/main.4af13300.chunk.css.map",
+    "static/css/main.fec8d842.chunk.css.map": "/bingo/static/css/main.fec8d842.chunk.css.map",
     "static/js/2.2c839584.chunk.js.LICENSE.txt": "/bingo/static/js/2.2c839584.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bingo/static/media/strike.f8f6e84b.jpg",
     "static/media/reward.3f263cee.mp3": "/bingo/static/media/reward.3f263cee.mp3"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.652cb14f.js",
     "static/js/2.2c839584.chunk.js",
-    "static/css/main.4af13300.chunk.css",
+    "static/css/main.fec8d842.chunk.css",
     "static/js/main.550cb52d.chunk.js"
   ]
 }
