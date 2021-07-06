@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bingo/static/css/main.7a49351a.chunk.css",
-    "main.js": "/bingo/static/js/main.669ff6f0.chunk.js",
-    "main.js.map": "/bingo/static/js/main.669ff6f0.chunk.js.map",
+    "main.css": "/bingo/static/css/main.1e53ea04.chunk.css",
+    "main.js": "/bingo/static/js/main.b01bacb7.chunk.js",
+    "main.js.map": "/bingo/static/js/main.b01bacb7.chunk.js.map",
     "runtime-main.js": "/bingo/static/js/runtime-main.7913c40b.js",
     "runtime-main.js.map": "/bingo/static/js/runtime-main.7913c40b.js.map",
     "static/js/2.1be079c6.chunk.js": "/bingo/static/js/2.1be079c6.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b31e017f.chunk.js": "/bingo/static/js/3.b31e017f.chunk.js",
     "static/js/3.b31e017f.chunk.js.map": "/bingo/static/js/3.b31e017f.chunk.js.map",
     "index.html": "/bingo/index.html",
-    "static/css/main.7a49351a.chunk.css.map": "/bingo/static/css/main.7a49351a.chunk.css.map",
+    "static/css/main.1e53ea04.chunk.css.map": "/bingo/static/css/main.1e53ea04.chunk.css.map",
     "static/js/2.1be079c6.chunk.js.LICENSE.txt": "/bingo/static/js/2.1be079c6.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bingo/static/media/strike.f8f6e84b.jpg",
     "static/media/reward.3f263cee.mp3": "/bingo/static/media/reward.3f263cee.mp3"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.7913c40b.js",
     "static/js/2.1be079c6.chunk.js",
-    "static/css/main.7a49351a.chunk.css",
-    "static/js/main.669ff6f0.chunk.js"
+    "static/css/main.1e53ea04.chunk.css",
+    "static/js/main.b01bacb7.chunk.js"
   ]
 }
