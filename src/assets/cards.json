@@ -49,7 +49,7 @@
     },
     {
         "id": 12,
-        "item": "sorry, i did'nt found the conferance id"
+        "item": "CONNF CALL BINGO 😷"
     },
     {
         "id": 13,
@@ -66,5 +66,41 @@
     {
         "id": 16,
         "item": "can you repeat please?"
+    },
+    {
+        "id": 17,
+        "item": "can you repeat please?"
+    },
+    {
+        "id": 18,
+        "item": "who just joined now?"
+    },
+    {
+        "id": 19,
+        "item": "sorry, I was bit late"
+    },
+    {
+        "id": 20,
+        "item": "call ended?"
+    },
+    {
+        "id": 21,
+        "item": "Lets have after 2pm"
+    },
+    {
+        "id": 22,
+        "item": "can you repeat please?"
+    },
+    {
+        "id": 23,
+        "item": "screen once more"
+    },
+    {
+        "id": 24,
+        "item": "Do you leave now"
+    },
+    {
+        "id": 25,
+        "item": "problem with outlook!"
     }
 ]

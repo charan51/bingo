@@ -10,20 +10,6 @@ import {
 } from "@material-ui/core";
 import bingoItems from "./assets/cards.json";
 import { styled } from "@material-ui/core/styles";
-const BingoItem = styled(Card)({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  textAlign: "center",
-  width: "100%",
-  paddingRight: "10px",
-  marginBottom: "10px",
-  height: "100px",
-});
-
-const CompletedItem = styled(Card)({
-  textAlign: "center",
-});
 
 class App extends Component {
   constructor(props) {
@@ -41,6 +27,20 @@ class App extends Component {
       9: false,
       10: false,
       11: false,
+      12: false,
+      13: false,
+      14: false,
+      15: false,
+      16: false,
+      17: false,
+      18: false,
+      19: false,
+      20: false,
+      21: false,
+      22: false,
+      23: false,
+      24: false,
+      25: false,
       completed: 0,
     };
   }
@@ -59,7 +59,6 @@ class App extends Component {
   }
   markComplete = (e) => {
     const id = e.target.id;
-    let completed = 0;
     this.setState({ [id]: true });
   };
 
@@ -73,10 +72,11 @@ class App extends Component {
   };
 
   bingoRow(row) {
-    let rowOne = bingoItems.slice(0, 4);
-    let rowTwo = bingoItems.slice(4, 8);
-    let rowThree = bingoItems.slice(8, 12);
-    let rowFour = bingoItems.slice(12, 16);
+    let rowOne = bingoItems.slice(0, 5);
+    let rowTwo = bingoItems.slice(5, 10);
+    let rowThree = bingoItems.slice(10, 15);
+    let rowFour = bingoItems.slice(15, 20);
+    let rowFive = bingoItems.slice(20, 25);
     let renderRow;
     switch (row) {
       case 1:
@@ -90,6 +90,9 @@ class App extends Component {
         break;
       case 4:
         renderRow = rowFour;
+        break;
+      case 5:
+        renderRow = rowFive;
         break;
       default:
         renderRow = rowOne;
@@ -107,23 +110,21 @@ class App extends Component {
           if (this.state[id] === true) {
             return (
               <Grid item xs={2} justifyContent="center" key={item.id}>
-              <BingoItem id={item.id} className="markCompleted cardItem">
+              <Card id={item.id} className="markCompleted cccc cardItem">
                 <CardContent className="cardC">
                  
-                  <div className="strike"> {item.item}</div>
+                  {item.id !== 12 ? <div className="strike"> {item.item}</div> :  <div> {item.item}</div>}
                 </CardContent>
-              </BingoItem>
+              </Card>
             </Grid>
             );
           } else {
             return (
               <Grid item xs={2} justifyContent="center" key={item.id}>
-                <BingoItem className="cardItem"  id={item.id} onClick={this.markComplete}>
-                  <CardContent className="cardC">
+                <Card   onClick={this.markComplete} className="cardItem cccc"  id={item.id} >
                   
-                    <div> {item.item}</div>
-                  </CardContent>
-                </BingoItem>
+                     {item.item}
+                </Card>
               </Grid>
             );
           }
@@ -143,36 +144,42 @@ bingoReward = () => {
         .catch((error) => {
           console.log(error);
         });
+       
 }
   render() {
     const keys = Object.keys(this.state);
-    keys.forEach((rows) => {});
     let rowOne = keys
-      .slice(0, 4)
+      .slice(0, 5)
       .map((item) => this.state[item] && this.state[item]);
     let rowTwo = keys
-      .slice(4, 8)
+      .slice(5, 10)
       .map((item) => this.state[item] && this.state[item]);
-    let rowThree = keys
-      .slice(8, 12)
+    let rowThree = keys.filter(i => i !== "12")
+      .slice(10, 14)
       .map((item) => this.state[item] && this.state[item]);
     let rowFour = keys
-      .slice(12, 16)
+      .slice(15, 20)
+      .map((item) => this.state[item] && this.state[item]);
+      let rowFive = keys
+      .slice(20, 25)
       .map((item) => this.state[item] && this.state[item]);
     let colOne = [0, 4, 8, 12].map(
       (item) => this.state[item] && this.state[item]
     );
-    let colTwo = [1, 5, 9, 13].map(
+    let colTwo = [1, 6, 11, 16,21].map(
       (item) => this.state[item] && this.state[item]
     );
-    let colThree = [2, 6, 10, 14].map(
+    let colThree = [2, 7, 17,22].map(
       (item) => this.state[item] && this.state[item]
     );
-    let colFour = [3, 7, 11, 15].map(
+    let colFour = [3, 8, 13, 18,23].map(
       (item) => this.state[item] && this.state[item]
     );
-    let x1 = [0, 5, 10, 15].map((item) => this.state[item] && this.state[item]);
-    let x2 = [3, 6, 9, 12].map((item) => this.state[item] && this.state[item]);
+    let colFive = [4, 9, 14, 19,24].map(
+      (item) => this.state[item] && this.state[item]
+    );
+    let x1 = [0, 6,18, 24].map((item) => this.state[item] && this.state[item]);
+    let x2 = [4, 8,16,20].map((item) => this.state[item] && this.state[item]);
     let checker = (arr) => arr.every((v) => v === true);
     let celebrate = false;
     if (checker(rowOne)) {
@@ -192,6 +199,10 @@ bingoReward = () => {
       celebrate = true;
       this.bingoReward();
     }
+    if (checker(rowFive)) {
+      celebrate = true;
+      this.bingoReward();
+    }
     if (checker(colOne)) {
       celebrate = true;
       this.bingoReward();
@@ -205,6 +216,10 @@ bingoReward = () => {
       this.bingoReward();
     }
     if (checker(colFour)) {
+      celebrate = true;
+      this.bingoReward();
+    }
+    if (checker(colFive)) {
       celebrate = true;
       this.bingoReward();
     }
@@ -247,12 +262,16 @@ bingoReward = () => {
       </Typography>
       </Grid>
 
-        <div className="bingoContainer">
+        <div className={celebrate ? "bingoContainer stopBingo" : "bingoContainer"}>
           {this.bingoRow(1)}
           {this.bingoRow(2)}
           {this.bingoRow(3)}
           {this.bingoRow(4)}
+          {this.bingoRow(5)}
+          {celebrate && <p style={{'color': 'red'}}>Refresh to play again!!!!</p> }
         </div>
+        <div className={celebrate && "stopBingoG"} />
+      
       </div>
     );
   }

@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter,Switch,Route } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
+   <Switch>
+        {/* If the current URL is /about, this route is rendered
+            while the rest are ignored */}
+        <Route path="/">
+         
     <App />
-  </React.StrictMode>,
+        </Route>
+        </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
